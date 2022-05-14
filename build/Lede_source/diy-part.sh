@@ -30,6 +30,9 @@ uci set system.@system[0].hostname='Cyzzc_1288'              # 修改主机名�
 #uci set firewall.@zone[0].network='lan ipv6'
 EOF
 
+# 自添加软件
+echo 'src-git nezha https://github.com/Erope/openwrt_nezha' >>feeds.conf.default
+echo 'src-git netspeedtest https://github.com/sirpdboy/netspeedtest' >>feeds.conf.default
 
 # 把bootstrap替换成argon为源码必选主题（可自行修改您要的,主题名称必须对,比如下面代码的[argon],源码内必须有该主题,要不然编译失败）
 sed -i "s/bootstrap/argon/ig" feeds/luci/collections/luci/Makefile
