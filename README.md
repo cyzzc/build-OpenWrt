@@ -26,7 +26,8 @@
 
 <br />
 </details>
-
+IP:192.168.1.2
+空密码
 
 ---
  ### 鸣谢！
@@ -47,3 +48,4 @@
  [`actions`](https://github.com/actions/upload-artifact)
  [`svenstaro`](https://github.com/svenstaro/upload-release-action)
  [`281677160`](https://github.com/281677160/build-actions)
+ 
